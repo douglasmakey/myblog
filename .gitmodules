@@ -1,0 +1,6 @@
+[submodule "kungfudev/themes/PaperMod"]
+	path = kungfudev/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "kungfudev/public"]
+	path = kungfudev/public
+	url = git@github.com:douglasmakey/douglasmakey.github.io.git
