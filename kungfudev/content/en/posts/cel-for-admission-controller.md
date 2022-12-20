@@ -1,6 +1,6 @@
 ---
 title: "CEL for admission controller with ValidatingAdmissionPolicy in K8s 1.26"
-date: 2022-12-20
+date: 2022-12-19
 tags: ["k8s", "cel", "admissioncontroller", "validatingadmissionpolicy"]
 cover:
     image: "/img/scenes-from-kubernetes-by-julia-evans.png"
