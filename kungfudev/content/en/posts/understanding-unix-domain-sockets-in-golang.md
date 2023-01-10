@@ -14,7 +14,7 @@ The file system provides a reliable and efficient mechanism for transmitting dat
 
 This is different from network sockets, where the communication involves the kernel, the network stack, and the network hardware. The processes use network protocols, such as TCP/UDP, in network sockets to establish connections and transfer data over the network. The kernel and the network stack handle the communication details, such as routing, addressing, and error correction. The network hardware handles the physical transmission of the data over the network.
 
-In Golang, Unix domain sockets are created using the `net.Dial` "server" or `net.Listen` "client" functions, with the `unix` network type. For example, the following code creates a Unix domain socket and listens for incoming connections:
+In Golang, Unix domain sockets are created using the `net.Dial` "client" or `net.Listen` "server" functions, with the `unix` network type. For example, the following code creates a Unix domain socket and listens for incoming connections:
 
 ```go
 // Create a Unix domain socket and listen for incoming connections.
