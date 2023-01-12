@@ -1,7 +1,7 @@
 ---
 title: "Understanding Unix Domain Sockets in Golang"
 date: 2022-12-05
-tags: ["go", "linux", "socket", "network"]
+tags: ["go", "linux", "socket", "network", "unix"]
 cover:
     image: "/img/unix-domain-sockets-by-julia-evans.png"
 ---
@@ -22,7 +22,6 @@ socket, err := net.Listen("unix", "/tmp/mysocket.sock")
 if err != nil {
     panic(err)
 }
-
 ```
 
 Let's look at an example of how to use Unix domain sockets in Golang. The following code creates a simple echo server using a Unix domain socket:
